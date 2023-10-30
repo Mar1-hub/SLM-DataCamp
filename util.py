@@ -1,5 +1,5 @@
 from keras.models import load_model
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from PIL import Image, ImageOps
 import tensorflow as tf
 import numpy as np
