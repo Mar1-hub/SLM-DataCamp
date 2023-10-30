@@ -2,7 +2,7 @@ from keras.models import load_model
 from PIL import Image, ImageOps
 import tensorflow as tf
 import numpy as np
-
+from flask import Flask, request,jsonify
 
 
 def set_background(image_file):
